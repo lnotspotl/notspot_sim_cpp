@@ -29,7 +29,7 @@ Gazebo.
 <img src="resources/1rest_controller.gif" width="400">
 
 ### Stand Controller
-<img src="resources/qstand_controller.gif" width="400">
+<img src="resources/1stand_controller.gif" width="400">
 
 ### Trot Gait Controller
 <img src="resources/1trot_gait_controller.gif" width="400">
