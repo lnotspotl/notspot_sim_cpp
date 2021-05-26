@@ -91,14 +91,20 @@ bool PS4_controller::run()
     for(int i = 0; i < target_joy.buttons.size(); i++)
     {
         if(target_joy.buttons[i] != last_joy.buttons[i])
+        {
             buttons_change = false;
+            break; 
+        }
     }
 
     // check for axes changes
     for(int i = 0; i < target_joy.axes.size(); i++)
     {
         if(target_joy.axes[i] != last_joy.axes[i])
+        {
             axes_change = false;
+            break; 
+        }
     }
 
 
